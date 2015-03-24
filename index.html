@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<meta charset="uft-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<script>
+var b = document.getElementById("markField");
+
+
+</script>
+<form>
+<div id="pole" />
+<div class="pole">
+<span class="markLabel">MARK</span><br />
+<input type="range" min="1" max="5" step="1" value="1" name="mark1" id="markField" required autofocus />
+<span id="markinput"></span>
+
+<br />
+<span class="strengthLabel">STRENGTH</span><br />
+<input type="range" min="1" max="10" step="1" value="1" name="strength1" id="strengthField" required />
+</div>
+<!-- do tohoto místa se pøidávají další elementy !-->
+</div>
+
+<script>
+var marks = new Array();
+var strengths = new Array();
+var intercounts = new Array();
+var number = 1;
+
+var mark = document.getElementById("markField");
+
+</script>
+
+<input type="button" name="add" button value="NEXT MARK" onclick="" class="button" /> <!-- vytvoøí další pole pro pøidání známky !-->
+<input type="button" name="work" button value="COUNT" onclick="" class="button" /> <!-- spoèítá prùmìr !-->
+</form>
+
+</body>
+</html>
